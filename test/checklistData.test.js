@@ -29,8 +29,10 @@ describe('Server tests - checklistData test suite', () => {
             .get('/')
             .send();
 
+        // console.log("res.body: " + JSON.stringify(res.body[0].CommunityCentre));
+
         expect(res).to.have.status(200);
         expect(res.body).to.be.an('array');
-        expect(res.body.length).to.be.eql(ccTestData.length);
+        expect(res.body[0].CommunityCentre.length).to.be.eql(ccTestData.CommunityCentre.length);
     });
 });
