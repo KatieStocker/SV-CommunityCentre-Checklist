@@ -11,7 +11,6 @@ router.route('/')
                 res.status(404).send('Not found');
             }
             else {
-                console.log(checklistData);
                 res.json(checklistData);
             }
         });
