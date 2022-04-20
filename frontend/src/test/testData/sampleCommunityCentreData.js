@@ -165,7 +165,8 @@ const testCCData = [{
                 }
             ],
             "reward": "Bridge Repair",
-            "roomCompleted": false
+            "roomCompleted": false,
+            _id: 1
         },
         {
             "room": "Pantry",
@@ -356,7 +357,8 @@ const testCCData = [{
                 }
             ],
             "reward": "Greenhouse",
-            "roomCompleted": false
+            "roomCompleted": false,
+            _id: 2
         },
         {
             "room": "Fish Tank",
@@ -527,7 +529,8 @@ const testCCData = [{
                 }
             ],
             "reward": "Glittering Boulder Removed",
-            "roomCompleted": false
+            "roomCompleted": false,
+            _id: 3
         },
         {
             "room": "Boiler Room",
@@ -602,7 +605,8 @@ const testCCData = [{
                 }
             ],
             "reward": "Minecarts Repaired",
-            "roomCompleted": false
+            "roomCompleted": false,
+            _id: 4
         },
         {
             "room": "Bulletin Board",
@@ -741,7 +745,8 @@ const testCCData = [{
                 }
             ],
             "reward": "Friendship Increased",
-            "roomCompleted": false
+            "roomCompleted": false,
+            _id: 5
         },
         {
             "room": "Vault",
@@ -796,7 +801,8 @@ const testCCData = [{
                 }
             ],
             "reward": "Bus Repair",
-            "roomCompleted": false
+            "roomCompleted": false,
+            _id: 6
         },
         {
             "room": "Abandoned JojaMart",
@@ -835,7 +841,8 @@ const testCCData = [{
                 }
             ],
             "reward": "Movie Theatre",
-            "roomCompleted": false
+            "roomCompleted": false,
+            _id: 7
         }
     ]
 }];
