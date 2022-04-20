@@ -1,4 +1,4 @@
-# SV-CommunityCentre-ToDo
+# SV-CommunityCentre-Checklist
 
 
 ## Purpose of this app
@@ -14,3 +14,11 @@
 ### Testing
 - Backend tests - type `npm run test-win` for windows, else use `npm run test` while the terminal is pointing to the backend path.
 - Frontend tests - type `npm test` while the terminal is pointing to the frontend path.
+
+
+## Features I would like to include or add in the future
+- Checkboxes to allow the user to tick off the items they have collected.
+- Once the required number of slots have been filled in each bundle, the room relating to the bundle should display something to show that it has been completed.
+- Information on where the user can find each item in-game.
+- Remix bundles - user should be able to select which bundles that have been randomly assigned to their current play-through.
+- Ability to log in to keep track of progress.
