@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import './CSS/CommunityCentre.css';
 
 const CommunityCentre = ({ data }) => {
 
@@ -19,7 +20,7 @@ const CommunityCentre = ({ data }) => {
             const CCData = communityCentreData[0].CommunityCentre;
             const displayBundles = CCData.map(currentBundle => {
                 return (
-                    <div className="bundle-location" key={currentBundle._id}>
+                    <div className="container card bundle-location" key={currentBundle._id}>
                         {currentBundle.room}
                     </div>
                 );

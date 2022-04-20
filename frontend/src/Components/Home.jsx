@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
+import './CSS/Home.css';
 import CommunityCentre from './CommunityCentre';
 
 const Home = () => {
@@ -27,7 +28,7 @@ const Home = () => {
 
     return (
         <>
-            <h1>
+            <h1 className="CC-title">
                 Community Centre Checklist
             </h1>
             <div className="container">
