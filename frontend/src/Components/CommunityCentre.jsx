@@ -20,7 +20,7 @@ const CommunityCentre = ({ data }) => {
             const displayBundles = CCData.map(currentBundle => {
                 return (
                     <div className="bundle-location" key={currentBundle._id}>
-                        {currentBundle.name}
+                        {currentBundle.room}
                     </div>
                 );
             });
@@ -32,7 +32,7 @@ const CommunityCentre = ({ data }) => {
     };
 
     return (
-        <div className="container" key="bundles">
+        <div className="container">
             {populateBundles()}
         </div>
     );
