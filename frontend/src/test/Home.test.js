@@ -1,6 +1,5 @@
 import { render, screen } from '@testing-library/react';
 import Home from '../Components/Home.jsx';
-import { testCCData } from './testData/sampleCommunityCentreData';
 
 describe(`Home test suite`, () => {
 
@@ -12,9 +11,7 @@ describe(`Home test suite`, () => {
         expect(screen.getByText('Community Centre Checklist')).toBeInTheDocument();
     });
 
-    test(`it should render 7 divs with class name '.bundle-location' to coincide with the number of bundles in the data`, () => {
-        const { container } = render(<Home />);
-        const count = container.querySelectorAll(`.bundle-location`).length;
-        expect(count).toBe(testCCData[0].CommunityCentre.length);
+    test(`it should display a loading message while the data is loading in`, async () => {
+        expect(await screen.findByText(/loading/i)).toBeInTheDocument();
     });
 });
