@@ -1,4 +1,3 @@
-import { testCCData } from '../test/testData/sampleCommunityCentreData';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import CommunityCentre from './CommunityCentre';
@@ -25,20 +24,6 @@ const Home = () => {
         }
         setTimeout(() => getData(), 1500);
     }, []);
-
-    const data = testCCData[0].CommunityCentre;
-
-    const populateBundles = () => {
-        const displayBundles = data.map(currentBundle => {
-            return (
-                <div className="bundle-location" key={currentBundle._id}>
-                    {currentBundle.name}
-                </div>
-            );
-        });
-        return displayBundles;
-    }
-
 
     return (
         <>

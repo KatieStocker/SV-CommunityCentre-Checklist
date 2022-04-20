@@ -31,7 +31,6 @@ const CommunityCentre = ({ data }) => {
         );
     };
 
-
     return (
         <div className="container" key="bundles">
             {populateBundles()}

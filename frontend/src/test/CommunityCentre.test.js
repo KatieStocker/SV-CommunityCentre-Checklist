@@ -1,5 +1,5 @@
 import { testCCData } from './testData/sampleCommunityCentreData';
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import CommunityCentre from '../Components/CommunityCentre.jsx';
 
 describe(`CommunityCentre test suite`, () => {
