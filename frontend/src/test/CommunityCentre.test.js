@@ -42,7 +42,7 @@ describe(`CommunityCentre test suite`, () => {
             expect(screen.getAllByText(ccRoom1.room).length).toBe(1);
         });
 
-        test(`it should display the reward for completing each bundle`, () => {
+        test(`it should display the reward for completing each room`, () => {
             expect(screen.getByText(ccRoom1.reward)).toBeInTheDocument();
             expect(screen.getByText(ccRoom2.reward)).toBeInTheDocument();
             expect(screen.getByText(ccRoom3.reward)).toBeInTheDocument();
