@@ -21,7 +21,15 @@ const CommunityCentre = ({ data }) => {
             const displayBundles = CCData.map(currentBundle => {
                 return (
                     <div className="container card bundle-location" key={currentBundle._id}>
-                        {currentBundle.room}
+                        <h3 className="room-header">{currentBundle.room}</h3>
+                        <div className="row reward-row">
+                            <div className="col-6">
+                                <p>Reward: </p>
+                            </div>
+                            <div className="col-6">
+                                <p>{currentBundle.reward}</p>
+                            </div>
+                        </div>
                     </div>
                 );
             });
