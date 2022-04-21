@@ -24,9 +24,11 @@ const CommunityCentre = ({ data }) => {
                     <div className="container card bundle-location" key={currentBundle._id}>
                         <h3 className="room-header">{currentBundle.room}</h3>
                         <div className="row bundle-row">
+                            <div className="col-1"></div>
                             <div className="col-10">
                                 <Bundle data={{ standardBundleData: currentBundle.standardBundle }} />
                             </div>
+                            <div className="col-1"></div>
                         </div>
                         <div className="row reward-row">
                             <div className="col-6">
